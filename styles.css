@@ -1,0 +1,22 @@
+#mylist{
+    background-color: gainsboro;
+}
+.hcolor{
+    color: grey;
+}
+p::after{
+    content: " below";
+    color: orangered;
+}
+p::before{
+    content: "Here ";
+    color: orangered;
+}
+table:hover{
+    background-color: gainsboro;
+}
+@media only screen and (max-width: 600px) {
+    p {
+      background-color: lightblue;
+    }
+  }
